@@ -23,7 +23,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="140dp"
         android:onClick="onMyButtonClick2"
-        android:text="It Is Not Me"
+        android:text="@string/it_is_not_me"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnWhoAmI" />
 
@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:layout_marginEnd="152dp"
-        android:text="Who Am I"
+        android:text="@string/who_am_i"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvOut" />
 
@@ -44,7 +44,7 @@
         android:layout_marginStart="161dp"
         android:layout_marginTop="296dp"
         android:layout_marginEnd="156dp"
-        android:text="CheckBox"
+        android:text="@string/checkbox"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -56,7 +56,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="148dp"
-        android:text="CheckBox"
+        android:text="@string/checkbox_1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnItIsNotMe" />
 
